@@ -11,6 +11,10 @@ This script downloads [Local](https://localwp.com/), fixes dependencies, install
 
 If your file manager allows executing scripts, you can also run the script that way, skipping steps 2 and 3 above.
 
+## Contributors
+
+Other than me, [Sagnik Sasmal](https://github.com/SagnikSRHUSE) has contributed to the script and wrote the main logic.
+
 <!-- https://askubuntu.com/a/1514001
 
 https://askubuntu.com/a/1515027
