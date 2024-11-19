@@ -11,6 +11,12 @@ This script downloads [Local](https://localwp.com/), fixes dependencies, install
 
 If your file manager allows executing scripts, you can also run the script that way, skipping steps 2 and 3 above.
 
+## One liner
+
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/pavakpaul/local-for-ubuntu-24.04/refs/heads/main/install-local.sh)"
+```
+
 ## Contributors
 
 Other than me, [Sagnik Sasmal](https://github.com/SagnikSRHUSE) has contributed to the script and wrote the main logic.
