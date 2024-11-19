@@ -9,7 +9,7 @@ This script downloads [Local](https://localwp.com/), fixes dependencies, install
 3. drag the file `install-local.sh` to the terminal and press Enter.
 4. Enter your password when prompted.
 
-If your file manager allows executing scripts, you can also run the script that way.
+If your file manager allows executing scripts, you can also run the script that way, skipping steps 2 and 3 above.
 
 <!-- https://askubuntu.com/a/1514001
 
