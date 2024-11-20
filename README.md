@@ -4,17 +4,10 @@ This script downloads [Local](https://localwp.com/), fixes dependencies, install
 
 ## How to use
 
-1. Download this repository
-2. Open terminal (`Ctrl` + `Alt` + `T`)
-3. drag the file `install-local.sh` to the terminal and press Enter.
-4. Enter your password when prompted.
-
-If your file manager allows executing scripts, you can also run the script that way, skipping steps 2 and 3 above.
-
-## One liner
+Run the below command in your terminal emulator of choice :)
 
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/pavakpaul/local-for-ubuntu-24.04/refs/heads/main/install-local.sh)"
+sudo bash -c "$(wget -O - https://raw.githubusercontent.com/pavakpaul/local-for-ubuntu-24.04/refs/heads/main/install-local.sh)"
 ```
 
 ## Contributors
