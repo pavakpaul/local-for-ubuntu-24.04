@@ -1,8 +1,11 @@
 #!/bin/bash
 
 echo "Checking OS compatibility"
-grep VERSION_ID /etc/os-release | grep 24.04 || echo "This script is only meant for Ubuntu 24.04 LTS"; exit
 
+if ! grep VERSION_ID /etc/os-release | grep -q 24.04; then
+    echo "This script is only meant for Ubuntu 24.04 LTS"
+    exit 1
+fi
 command -v fakeroot || sudo apt install fakeroot -y
 
 TMPDIR=$(mktemp -d)
